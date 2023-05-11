@@ -1,0 +1,72 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{rotating}
+
+\begin{document}
+
+\begin{sidewaystable}
+    \centering
+    \fontsize{6}{8}\selectfont
+    \begin{tabular}{l*{6}{r}}
+        \toprule
+        & \multicolumn{2}{c}{\textbf{Mean}} & \multicolumn{2}{c}{\textbf{Standard error}} & \multicolumn{2}{c}{\textbf{n}} \\
+        \cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+        \textbf{AGI safety and governance practice} & \textbf{Men} & \textbf{Women} & \textbf{Men} & \textbf{Women} & \textbf{Men} & \textbf{Women} \\
+        \midrule
+        Pre-deployment risk assessment & 1.94 & 1.86 & 0.04 & 0.14 & 32 & 14 \\
+Dangerous capabilities evaluations & 1.90 & 2.00 & 0.05 & 0.00 & 31 & 14 \\
+Third-party model audits & 1.81 & 1.93 & 0.07 & 0.07 & 32 & 14 \\
+Safety restrictions & 1.75 & 2.00 & 0.09 & 0.00 & 32 & 14 \\
+Red teaming & 1.84 & 1.79 & 0.07 & 0.11 & 32 & 14 \\
+Monitor systems and their uses & 1.62 & 2.00 & 0.12 & 0.00 & 32 & 14 \\
+Alignment techniques & 1.62 & 2.00 & 0.15 & 0.00 & 32 & 14 \\
+Security incident response plan & 1.75 & 1.92 & 0.09 & 0.08 & 24 & 12 \\
+Post-deployment evaluations & 1.70 & 2.00 & 0.10 & 0.00 & 23 & 11 \\
+Report safety incidents & 1.81 & 1.79 & 0.07 & 0.11 & 31 & 14 \\
+Safety vs. capabilities & 1.59 & 1.86 & 0.11 & 0.10 & 32 & 14 \\
+Internal review before publication & 1.59 & 1.86 & 0.14 & 0.10 & 32 & 14 \\
+Pre-training risk assessment & 1.78 & 1.64 & 0.11 & 0.23 & 32 & 14 \\
+Emergency response plan & 1.66 & 1.71 & 0.10 & 0.13 & 32 & 14 \\
+Protection against espionage & 1.57 & 1.75 & 0.19 & 0.13 & 23 & 12 \\
+Pausing training of dangerous models & 1.75 & 1.64 & 0.09 & 0.23 & 32 & 14 \\
+Increasing levels of external scrutiny & 1.56 & 1.79 & 0.10 & 0.11 & 32 & 14 \\
+Publish alignment strategy & 1.43 & 1.60 & 0.12 & 0.16 & 23 & 10 \\
+Bug bounty programs & 1.53 & 1.57 & 0.10 & 0.14 & 32 & 14 \\
+Industry sharing of security information & 1.35 & 1.73 & 0.13 & 0.14 & 23 & 11 \\
+Security standards & 1.44 & 1.75 & 0.22 & 0.13 & 27 & 12 \\
+Publish results of internal risk assessments & 1.33 & 1.82 & 0.14 & 0.12 & 21 & 11 \\
+Dual control & 1.50 & 1.50 & 0.13 & 0.22 & 22 & 10 \\
+Publish results of external scrutiny & 1.36 & 1.73 & 0.12 & 0.14 & 22 & 11 \\
+Military-grade information security & 1.47 & 1.36 & 0.15 & 0.25 & 32 & 14 \\
+Board risk committee & 1.40 & 1.60 & 0.22 & 0.16 & 20 & 10 \\
+Chief risk officer & 1.58 & 1.25 & 0.16 & 0.18 & 19 & 12 \\
+Statement about governance structure & 1.43 & 1.73 & 0.14 & 0.14 & 23 & 11 \\
+Publish views about AGI risk & 1.33 & 1.50 & 0.12 & 0.17 & 30 & 14 \\
+KYC screening & 1.23 & 1.50 & 0.16 & 0.15 & 22 & 12 \\
+Third-party governance audits & 1.48 & 1.33 & 0.13 & 0.19 & 21 & 12 \\
+Background checks & 1.42 & 1.22 & 0.16 & 0.28 & 24 & 9 \\
+Model containment & 1.39 & 1.36 & 0.16 & 0.20 & 31 & 14 \\
+Staged deployment & 1.34 & 1.57 & 0.15 & 0.17 & 32 & 14 \\
+Tracking model weights & 1.27 & 1.33 & 0.18 & 0.26 & 22 & 12 \\
+Internal audit & 1.28 & 1.43 & 0.16 & 0.17 & 32 & 14 \\
+No open-sourcing & 1.38 & 1.07 & 0.18 & 0.32 & 32 & 14 \\
+Researcher model access & 1.13 & 1.50 & 0.16 & 0.14 & 30 & 14 \\
+API access to powerful models & 1.24 & 1.31 & 0.19 & 0.24 & 29 & 13 \\
+Avoiding hype & 1.06 & 1.21 & 0.13 & 0.19 & 32 & 14 \\
+Gradual scaling & 1.13 & 1.57 & 0.12 & 0.17 & 30 & 14 \\
+Treat updates similarly to new models & 1.00 & 1.36 & 0.17 & 0.29 & 31 & 14 \\
+Pre-registration of large training runs & 1.13 & 1.36 & 0.15 & 0.25 & 31 & 14 \\
+Enterprise risk management & 0.90 & 1.23 & 0.24 & 0.20 & 21 & 13 \\
+Treat internal deployments similar to external deployments & 0.95 & 1.30 & 0.17 & 0.26 & 22 & 10 \\
+Notify a state actor before deployment & 0.93 & 1.14 & 0.18 & 0.21 & 30 & 14 \\
+Notify affected parties & 1.07 & 1.10 & 0.18 & 0.31 & 15 & 10 \\
+Inter-lab scrutiny & 0.72 & 0.82 & 0.27 & 0.23 & 18 & 11 \\
+Avoid capabilities jumps & 0.62 & 1.00 & 0.20 & 0.44 & 21 & 9 \\
+Notify other labs & 0.40 & 0.89 & 0.21 & 0.26 & 20 & 9 \\
+        \bottomrule
+    \end{tabular}
+\end{sidewaystable}
+
+\end{document}
+

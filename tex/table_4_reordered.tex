@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{rotating}
+
+\begin{document}
+
+\begin{sidewaystable}
+    \centering
+    \fontsize{6}{8}\selectfont
+    \begin{tabular}{l*{9}{r}}
+        \toprule
+        & \multicolumn{3}{c}{\textbf{Mean}} & \multicolumn{3}{c}{\textbf{Standard error}} & \multicolumn{3}{c}{\textbf{n}} \\
+        \cmidrule(lr){2-4} \cmidrule(lr){5-7} \cmidrule(lr){8-10}
+        \textbf{AGI safety and governance practice} & \textbf{AGI Lab} & \textbf{Academia} & \textbf{Civil society} & \textbf{AGI Lab} & \textbf{Academia} & \textbf{Civil society} & \textbf{AGI Lab} & \textbf{Academia} & \textbf{Civil society} \\
+        \midrule
+        Pre-deployment risk assessment & 1.96 & 1.82 & 1.82 & 0.04 & 0.18 & 0.12 & 25 & 11 & 11 \\
+Dangerous capabilities evaluations & 1.92 & 1.91 & 1.91 & 0.06 & 0.09 & 0.09 & 25 & 11 & 11 \\
+Third-party model audits & 1.80 & 1.82 & 1.82 & 0.13 & 0.12 & 0.12 & 25 & 11 & 11 \\
+Safety restrictions & 1.92 & 1.82 & 1.64 & 0.06 & 0.18 & 0.15 & 25 & 11 & 11 \\
+Red teaming & 1.76 & 1.82 & 1.64 & 0.17 & 0.12 & 0.15 & 25 & 11 & 11 \\
+Monitor systems and their uses & 1.72 & 1.82 & 1.82 & 0.14 & 0.12 & 0.12 & 25 & 11 & 11 \\
+Alignment techniques & 1.72 & 1.91 & 1.55 & 0.18 & 0.09 & 0.16 & 25 & 11 & 11 \\
+Security incident response plan & 1.77 & 2.00 & 1.71 & 0.09 & 0.00 & 0.18 & 25 & 11 & 11 \\
+Post-deployment evaluations & 1.81 & 1.43 & 1.67 & 0.09 & 0.43 & 0.21 & 25 & 11 & 11 \\
+Report safety incidents & 1.71 & 1.73 & 1.64 & 0.18 & 0.14 & 0.15 & 25 & 11 & 11 \\
+Safety vs. capabilities & 1.68 & 1.82 & 1.64 & 0.13 & 0.12 & 0.15 & 25 & 11 & 11 \\
+Internal review before publication & 1.68 & 1.82 & 1.45 & 0.17 & 0.12 & 0.16 & 25 & 11 & 11 \\
+Pre-training risk assessment & 1.56 & 1.73 & 1.73 & 0.17 & 0.27 & 0.27 & 25 & 11 & 11 \\
+Emergency response plan & 1.68 & 1.82 & 1.36 & 0.15 & 0.12 & 0.15 & 25 & 11 & 11 \\
+Protection against espionage & 1.68 & 1.57 & 1.67 & 0.19 & 0.20 & 0.21 & 25 & 11 & 11 \\
+Pausing training of dangerous models & 1.36 & 1.91 & 1.91 & 0.21 & 0.09 & 0.09 & 25 & 11 & 11 \\
+Increasing levels of external scrutiny & 1.62 & 1.55 & 1.64 & 0.16 & 0.16 & 0.15 & 25 & 11 & 11 \\
+Publish alignment strategy & 1.63 & 1.57 & 1.43 & 0.11 & 0.20 & 0.20 & 25 & 11 & 11 \\
+Bug bounty programs & 1.62 & 1.64 & 1.09 & 0.15 & 0.15 & 0.16 & 25 & 11 & 11 \\
+Industry sharing of security information & 1.55 & 1.29 & 1.67 & 0.11 & 0.29 & 0.33 & 25 & 11 & 11 \\
+Security standards & 1.27 & 1.89 & 1.70 & 0.30 & 0.11 & 0.15 & 25 & 11 & 11 \\
+Publish results of internal risk assessments & 1.65 & 1.00 & 1.33 & 0.11 & 0.63 & 0.33 & 25 & 11 & 11 \\
+Dual control & 1.70 & 1.33 & 1.33 & 0.11 & 0.33 & 0.21 & 25 & 11 & 11 \\
+Publish results of external scrutiny & 1.59 & 1.50 & 1.40 & 0.11 & 0.22 & 0.40 & 25 & 11 & 11 \\
+Military-grade information security & 1.28 & 1.45 & 1.73 & 0.25 & 0.21 & 0.14 & 25 & 11 & 11 \\
+Board risk committee & 1.61 & 1.00 & 1.17 & 0.12 & 0.68 & 0.65 & 25 & 11 & 11 \\
+Chief risk officer & 1.53 & 0.83 & 1.67 & 0.16 & 0.60 & 0.21 & 25 & 11 & 11 \\
+Statement about governance structure & 1.57 & 1.43 & 1.17 & 0.13 & 0.30 & 0.48 & 25 & 11 & 11 \\
+Publish views about AGI risk & 1.39 & 1.36 & 1.27 & 0.22 & 0.15 & 0.19 & 25 & 11 & 11 \\
+KYC screening & 1.43 & 1.43 & 1.33 & 0.15 & 0.20 & 0.33 & 25 & 11 & 11 \\
+Third-party governance audits & 1.30 & 1.57 & 1.20 & 0.22 & 0.20 & 0.37 & 25 & 11 & 11 \\
+Background checks & 1.62 & 1.17 & 1.17 & 0.13 & 0.17 & 0.54 & 25 & 11 & 11 \\
+Model containment & 1.25 & 1.45 & 1.36 & 0.24 & 0.21 & 0.20 & 25 & 11 & 11 \\
+Staged deployment & 1.32 & 1.45 & 1.27 & 0.22 & 0.16 & 0.19 & 25 & 11 & 11 \\
+Tracking model weights & 1.35 & 1.43 & 1.33 & 0.17 & 0.30 & 0.49 & 25 & 11 & 11 \\
+Internal audit & 1.12 & 1.73 & 1.36 & 0.23 & 0.14 & 0.20 & 25 & 11 & 11 \\
+No open-sourcing & 1.24 & 1.36 & 1.27 & 0.25 & 0.28 & 0.27 & 25 & 11 & 11 \\
+Researcher model access & 1.38 & 1.00 & 0.82 & 0.19 & 0.30 & 0.23 & 25 & 11 & 11 \\
+API access to powerful models & 1.08 & 1.44 & 1.50 & 0.25 & 0.24 & 0.17 & 25 & 11 & 11 \\
+Avoiding hype & 1.24 & 0.82 & 1.36 & 0.14 & 0.26 & 0.15 & 25 & 11 & 11 \\
+Gradual scaling & 1.13 & 1.36 & 1.09 & 0.25 & 0.15 & 0.21 & 25 & 11 & 11 \\
+Treat updates similarly to new models & 1.08 & 1.45 & 1.00 & 0.24 & 0.25 & 0.23 & 25 & 11 & 11 \\
+Pre-registration of large training runs & 0.87 & 1.64 & 1.00 & 0.26 & 0.20 & 0.27 & 25 & 11 & 11 \\
+Enterprise risk management & 0.71 & 1.38 & 1.11 & 0.33 & 0.26 & 0.20 & 25 & 11 & 11 \\
+Treat internal deployments similar to external deployments & 1.10 & 1.17 & 0.50 & 0.23 & 0.17 & 0.34 & 25 & 11 & 11 \\
+Notify a state actor before deployment & 0.55 & 1.45 & 1.00 & 0.25 & 0.21 & 0.27 & 25 & 11 & 11 \\
+Notify affected parties & 0.80 & 0.80 & 1.33 & 0.26 & 0.58 & 0.33 & 25 & 11 & 11 \\
+Inter-lab scrutiny & 1.22 & 0.33 & 0.17 & 0.13 & 0.49 & 0.54 & 25 & 11 & 11 \\
+Avoid capabilities jumps & 0.89 & 0.67 & 0.17 & 0.27 & 0.56 & 0.48 & 25 & 11 & 11 \\
+Notify other labs & 0.72 & 0.80 & 0.00 & 0.19 & 0.37 & 0.37 & 25 & 11 & 11 \\
+        \bottomrule
+    \end{tabular}
+\end{sidewaystable}
+
+\end{document}
