@@ -6,13 +6,12 @@ Analysis of the survey "Towards best practices in AGI safety and governance: A s
 The full paper complementing this repository is available at 
 [link]
 
-
 ## Citation
 
 <a name="citation" />
 
 #### BibTeX
 ```
-bibtex
+bibtex{
 }
 ```
