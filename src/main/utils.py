@@ -25,8 +25,15 @@ from scipy.stats import chi2_contingency
 from scipy.stats import mannwhitneyu
 import scipy.stats as stats
 import matplotlib.font_manager as fm
-prop = fm.FontProperties(fname='/Users/mccaffary/Desktop/proxima_nova/Proxima_Nova_Reg.otf')
-prop_bold = fm.FontProperties(fname='/Users/mccaffary/Desktop/proxima_nova/Proxima_Nova_Semibold.otf')
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
+# construct path to your font files
+font_regular_path = os.path.join(dir_path, 'fonts', 'Proxima_Nova_Reg.otf')
+font_semibold_path = os.path.join(dir_path, 'fonts', 'Proxima_Nova_Semibold.otf')
+# load font properties
+prop = fm.FontProperties(fname=font_regular_path)
+prop_bold = fm.FontProperties(fname=font_semibold_path)
+
 
 ###############
 ### GENERAL ###
