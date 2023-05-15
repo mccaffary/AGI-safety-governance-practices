@@ -3,8 +3,7 @@ Analysis of the survey "Towards best practices in AGI safety and governance: A s
 
 ## arXiv link
 
-The full paper complementing this repository is available at 
-[link]
+The full paper complementing this repository is available [here](https://arxiv.org/abs/2305.07153).
 
 ## Citation
 
@@ -12,6 +11,12 @@ The full paper complementing this repository is available at
 
 #### BibTeX
 ```
-bibtex{
+@misc{schuett2023best,
+      title={Towards best practices in AGI safety and governance: A survey of expert opinion}, 
+      author={Jonas Schuett and Noemi Dreksler and Markus Anderljung and David McCaffary and Lennart Heim and Emma Bluemke and Ben Garfinkel},
+      year={2023},
+      eprint={2305.07153},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY}
 }
 ```
