@@ -1,4 +1,4 @@
-# AGI-safety-governance-practices
+# Towards best practices in AGI safety and governance
 Analysis of the survey "Towards best practices in AGI safety and governance: A survey of expert opinion"
 
 ## arXiv link
