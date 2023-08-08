@@ -44,7 +44,7 @@ Bottleneck @ file:///opt/concourse/worker/volumes/live/220f0b56-5355-4122-6705-4
 brokenaxes==0.5.0
 brotlipy==0.7.0
 cachetools @ file:///tmp/build/80754af9/cachetools_1619597386817/work
-certifi==2021.10.8
+certifi==2023.7.22
 cffi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/croot-2p6q7e2r/cffi_1642701115063/work
 chardet @ file:///opt/concourse/worker/volumes/live/7e1102c4-8702-40f2-63d6-f260ce5f85e4/volume/chardet_1607706831384/work
 charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
